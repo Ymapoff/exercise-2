@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         int check = 100;
-        int mUp = 300;
-        int bonus = mUp / 100;
+        int mUp = 900;
+        int bonus = 1;
 
-        if (bonus < 1000) {
+        if (mUp >= 1000) {
              bonus = (mUp + check) / 100;
         } else {
             bonus = 0;
